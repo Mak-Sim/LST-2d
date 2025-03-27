@@ -5,7 +5,7 @@ architecture for image recognition tasks. The LST based on the
 idea of sharing the weights of one fullyconnected (FC) layer to
 process all rows of an image.
 
-<img src="img/LST_2d.png" alt="Контроллер" width="400" >
+<img src="img/LST_2d.png" alt="LST-2d" width="600" >
 
 ## Key feature
 The use of LST layers in a NN architecture significantly reduces the number of model parameters compared to models that use stacked FC layers. We show that a NN-classifier based on a single LST layer followed by an FC layer achieves 98.02% accuracy on the MNIST dataset, while having only 9.5k parameters.
